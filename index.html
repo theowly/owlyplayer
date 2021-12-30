@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owly Player</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+    <link rel="stylesheet" href="owlyplayer-v1.0.css">
+</head>
+<body>
+
+
+<style>
+    :root{
+        --plyr-color-main: rgb(0, 154, 160);
+        --plyr-video-control-color: white;
+        --plyr-video-control-color-hover: white;
+        --owlyplayer-aspectratio: 16 / 9;
+    }
+</style>
+
+<div class="owlyplayer-container">
+    <div class="owlyplayer-wrapper">
+        <div id="owlyplayer">
+            <iframe
+              src="https://www.youtube.com/embed/tOdbNNKxvvM?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+              allowfullscreen
+              allowtransparency
+              allow="autoplay"
+            ></iframe>
+        <div id="owlyplayer-ytblocker" class="owlyplayer-ytblockers"></div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+<script src="owlyplayer-v1.0.js"></script>
+
+
+</body>
+</html>
